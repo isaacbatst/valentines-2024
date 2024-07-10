@@ -20,7 +20,7 @@ export const enigmas: Enigma[] = [
     resposta: "Viajar",
     pista:
       "Pense em um verbo que remete a explorar o mundo, a conhecer novos lugares e culturas. Uma ação que é tanto física quanto mental, que nos leva a novas descobertas.",
-    requisitos: [new RequisitoData(new Date("2024-07-10T18:00:00-03:00"))],
+    requisitos: [new RequisitoData(new Date("2024-07-10T17:00:00-03:00"))],
     descoberta: [
       "Muito bem!\n Mas será que sabe exatamente aonde iremos explorar?",
       "Prepare-se pois exatamente às 7h precisaremos zarpar.",
@@ -35,7 +35,7 @@ export const enigmas: Enigma[] = [
       "Este lugar foi um dia defendido por um nobre europeu cuja ponte ainda ecoa seu nome. Pense em uma cidade onde a primeira sinagoga das Américas se encontra.",
     requisitos: [
       // new RequisitoData(new Date("2024-07-11T13:00:00-03:00")),
-      new RequisitoData(new Date("2024-07-11T09:00:00-03:00")),
+      new RequisitoData(new Date("2024-07-11T17:00:00-03:00")),
       new RequisitoEnigma(1),
     ],
     descoberta: [
