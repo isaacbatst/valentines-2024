@@ -1,18 +1,19 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Manrope } from 'next/font/google'
+import { Manrope } from "next/font/google";
+import { Toaster } from "@/components/ui/toaster";
 
 const fontHeading = Manrope({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-heading',
-})
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-heading",
+});
 const fontBody = Manrope({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-body',
-})
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-body",
+});
 
 export const metadata: Metadata = {
   title: "12 de Julho",
@@ -27,14 +28,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={
-          `${fontHeading.variable} ${fontBody.variable} antialiased`}
-        >{children}</body>
+        className={`${fontHeading.variable} ${fontBody.variable} antialiased`}
+      >
+        {children}
+        <Toaster />
+      </body>
     </html>
   );
 }
 
-
 // This is the root layout component for your Next.js app.
 // Learn more: https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts#root-layout-required
-

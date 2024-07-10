@@ -1,5 +1,5 @@
 import { HTMLAttributes } from "react"
-import CalendarIcon from "./components/calendar-icon"
+import CalendarIcon from "../components/icon/calendar-icon"
 
 /**
  * v0 by Vercel.

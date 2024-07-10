@@ -1,6 +1,6 @@
 import Image from "next/image";
 import BaseComponent from "./base";
-import { ConfirmId } from "./components/confirm-id";
+import { ConfirmId } from "./confirm-id";
 
 export default function Home() {
   return (
