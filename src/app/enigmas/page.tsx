@@ -1,12 +1,6 @@
-import { HTMLAttributes } from "react"
-import CalendarIcon from "./components/calendar-icon"
+import CalendarIcon from "../components/calendar-icon";
 
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/scVndwa3R8N
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
-export default function BaseComponent() {
+export default function Enigmas() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-background text-foreground">
       <div className="max-w-md w-full px-6 py-8 bg-card rounded-lg shadow-lg">
