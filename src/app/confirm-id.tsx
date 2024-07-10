@@ -25,17 +25,20 @@ export const ConfirmId = () => {
       return
     }
 
-    router.push('/enigmas?from=confirm-id')
+    router.push('/apresentacao')
   }
 
   return (
     <div className="flex flex-col gap-2 py-10 px-2 flex-1">
+      <h1 className="text-2xl font-bold text-center">
+        Para @sabrexe
+      </h1>
       <p
-        className="text-2xl text-center font-bold text-primary"
+        className="text-center text-muted-foreground"
       >Primeiro confirme sua identidade</p>
       <div className="flex-1 flex flex-col gap-5 p-2">
         <p
-        className="text-sm text-muted-foreground text-center">
+        className="text-center">
           Qual meu emoji no seu celular?
         </p>
         <ul className="flex flex-col gap-2">

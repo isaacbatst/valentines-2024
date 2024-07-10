@@ -1,10 +1,10 @@
-'use client';
+"use client";
 import { useSearchParams } from "next/navigation";
 import CalendarIcon from "../../components/icon/calendar-icon";
 import Presentation from "../apresentacao/presentation";
 
 export default function Enigmas() {
-  const params = useSearchParams()
+  const params = useSearchParams();
 
   return (
     <div className="flex flex-col flex-1 items-center min-h-screen bg-background text-foreground">
@@ -15,7 +15,8 @@ export default function Enigmas() {
             <div className="text-2xl font-bold" />
           </div>
         </div>
+        <Presentation />
       </div>
     </div>
-  )
+  );
 }
