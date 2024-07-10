@@ -20,7 +20,7 @@ export const enigmas: Enigma[] = [
     resposta: "Viajar",
     pista:
       "Pense em um verbo que remete a explorar o mundo, a conhecer novos lugares e culturas. Uma ação que é tanto física quanto mental, que nos leva a novas descobertas.",
-    requisitos: [new RequisitoData(new Date("2024-07-10T12:00:00-03:00"))],
+    requisitos: [new RequisitoData(new Date("2024-07-10T18:00:00-03:00"))],
     descoberta: [
       "Muito bem!\n Mas será que sabe exatamente aonde iremos explorar?",
       "Prepare-se pois exatamente às 7h precisaremos zarpar.",
@@ -35,7 +35,7 @@ export const enigmas: Enigma[] = [
       "Este lugar foi um dia defendido por um nobre europeu cuja ponte ainda ecoa seu nome. Pense em uma cidade onde a primeira sinagoga das Américas se encontra.",
     requisitos: [
       // new RequisitoData(new Date("2024-07-11T13:00:00-03:00")),
-      new RequisitoData(new Date("2024-07-10T13:00:00-03:00")),
+      new RequisitoData(new Date("2024-07-11T09:00:00-03:00")),
       new RequisitoEnigma(1),
     ],
     descoberta: [
@@ -51,7 +51,7 @@ export const enigmas: Enigma[] = [
     pista:
       "Pense no croquete mais gostoso que você já comeu, um lugar que é tanto um restaurante quanto um jardim",
     requisitos: [
-      new RequisitoData(new Date("2024-07-10T08:00:00-03:00")),
+      new RequisitoData(new Date("2024-07-12T07:00:00-03:00")),
       new RequisitoEnigma(1),
       new RequisitoEnigma(2),
     ],
@@ -68,7 +68,7 @@ export const enigmas: Enigma[] = [
     pista:
       "Pense em um nome que remete a cavaleiros e histórias antigas, um lugar que é tanto um castelo quanto um museu.",
     requisitos: [
-      new RequisitoData(new Date("2024-07-10T12:00:00-03:00")),
+      new RequisitoData(new Date("2024-07-12T12:00:00-03:00")),
       new RequisitoEnigma(1),
       new RequisitoEnigma(2),
       new RequisitoEnigma(3),
@@ -86,7 +86,7 @@ export const enigmas: Enigma[] = [
     pista:
       "Este lugar é a capital de um estado cujo nome é um tributo a uma figura histórica que protegeu suas terras. Suas praias são um segredo revelado pelas marés.",
     requisitos: [
-      new RequisitoData(new Date("2024-07-10T14:30:00-03:00")),
+      new RequisitoData(new Date("2024-07-12T14:30:00-03:00")),
       new RequisitoEnigma(1),
       new RequisitoEnigma(2),
       new RequisitoEnigma(3),
@@ -102,7 +102,7 @@ export const enigmas: Enigma[] = [
       "No campo da química, a transformação de substâncias traz surpresas inesperadas, assim como a fusão de sabores em certo bar.\n\nImagine um nome que sugere uma língua universal, onde todos podem se entender através dos sabores. cuja especialidade é um petisco regional com um toque gourmet.\n\nQual é o nome deste bar?",
     resposta: "Esperanto",
     requisitos: [
-      new RequisitoData(new Date("2024-07-10T15:00:00-03:00")),
+      new RequisitoData(new Date("2024-07-12T17:00:00-03:00")),
       new RequisitoEnigma(1),
       new RequisitoEnigma(2),
       new RequisitoEnigma(3),
