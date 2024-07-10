@@ -16,7 +16,7 @@ const fontBody = Manrope({
 
 export const metadata: Metadata = {
   title: "12 de Julho",
-  description: "Dia dos Namorados fora de época",
+  description: "Nosso dia dos Namorados fora de época",
 };
 
 export default function RootLayout({
