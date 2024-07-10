@@ -1,7 +1,8 @@
 'use client'
 import { toast } from "@/components/ui/use-toast"
 import { useRouter } from "next/navigation"
-import { useState } from "react"
+import { useEffect, useState } from "react"
+import { useUserContext } from "./context/user.context"
 
 const options = [
   { value: 'fish', label: 'Peixe tropical 🐠' },
@@ -12,7 +13,14 @@ const options = [
 
 export const ConfirmId = () => {
   const [selected, setSelected] = useState<string>()
+  const {identified, setIdentified} = useUserContext()
   const router = useRouter()
+
+  useEffect(() => {
+    if(identified) {
+      router.push('/apresentacao')
+    }
+  }, [identified, router])
 
   const handleConfirm = () => {
     const correct = 'fish'
@@ -25,7 +33,7 @@ export const ConfirmId = () => {
       return
     }
 
-    router.push('/apresentacao')
+    setIdentified(true)
   }
 
   return (

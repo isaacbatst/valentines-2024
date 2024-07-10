@@ -1,11 +1,11 @@
 import { Requisito } from "./requisito";
 
 export class RequisitoEnigma extends Requisito {
-  constructor(public id: number) {
+  constructor(public enigmaId: number) {
     super("enigma");
   }
 
   get descricao(): string {
-    return `O enigma ${this.id} deve ser resolvido`;
+    return `O enigma #${this.enigmaId} deve ser resolvido`;
   }
 }

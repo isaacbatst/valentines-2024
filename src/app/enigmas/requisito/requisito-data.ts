@@ -6,7 +6,7 @@ export class RequisitoData extends Requisito {
   }
 
   get descricao(): string {
-    return `A data deve ser posterior a ${this.data.toLocaleDateString()}`;
+    return `A partir de ${this.data.toLocaleString()}`;
   }
 
 }
