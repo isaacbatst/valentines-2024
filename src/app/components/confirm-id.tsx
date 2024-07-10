@@ -20,7 +20,7 @@ export const ConfirmId = () => {
   }
 
   return (
-    <div className="flex flex-col gap-2 p-2 flex-1">
+    <div className="flex flex-col gap-2 py-10 px-2 flex-1">
       <p
         className="text-2xl text-center font-bold text-primary-foreground"
       >Primeiro confirme sua identidade</p>
