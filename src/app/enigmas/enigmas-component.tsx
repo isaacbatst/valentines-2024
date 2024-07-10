@@ -24,6 +24,21 @@ const EnigmasComponent = (props: Props) => {
     if (currentEnigma) setOpenItem(`enigma-${currentEnigma.id}`);
   }, [currentEnigma]);
 
+  const allSolved = solvedEnigmas?.length === enigmas.length;
+
+  if (allSolved) {
+    return (
+      <div className="flex flex-col gap-4 items-center">
+        <h1 className="text-3xl font-bold text-center">
+          Parabéns! Você deve estar tendo um dia incrível!
+        </h1>
+        <p className="text-center">
+          Obrigado por participar e por resolver todos os enigmas. Você é incrível!
+        </p>
+      </div>
+    );
+  }
+
   if (defaultOpen === undefined) return <LoadingSpinner />;
 
 
