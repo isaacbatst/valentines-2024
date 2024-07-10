@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <UserContextProvider>
       <Redirect>
-        <main className="min-h-screen flex flex-col bg-background">
+        <main className="min-h-dvh flex flex-col bg-background">
           <ConfirmId />
         </main>
       </Redirect>

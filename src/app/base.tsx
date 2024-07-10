@@ -8,7 +8,7 @@ import CalendarIcon from "../components/icon/calendar-icon"
  */
 export default function BaseComponent() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-background text-foreground">
+    <div className="flex flex-col items-center justify-center min-h-dvh bg-background text-foreground">
       <div className="max-w-md w-full px-6 py-8 bg-card rounded-lg shadow-lg">
         <div className="flex flex-col items-center gap-4">
           <h1 className="text-2xl font-bold">Para @sabrexe</h1>

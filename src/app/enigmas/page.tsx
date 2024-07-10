@@ -7,7 +7,7 @@ export default function Enigmas() {
   return (
     <UserContextProvider>
       <Redirect>
-        <div className="flex flex-col flex-1 items-center min-h-screen bg-background text-foreground">
+        <div className="flex flex-col flex-1 items-center min-h-dvh bg-background text-foreground">
           <div className="max-w-md w-full px-6 py-8 flex flex-col flex-1">
             <div className="flex flex-col items-center gap-4">
               <h1 className="text-2xl font-bold">Para @sabrexe</h1>

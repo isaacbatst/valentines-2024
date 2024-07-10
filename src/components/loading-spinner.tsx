@@ -4,7 +4,7 @@ type Props = {}
 
 const LoadingSpinner = (props: Props) => {
   return (
-    <div className="p-5 flex justify-center items-center flex-1 min-h-screen">
+    <div className="p-5 flex justify-center items-center flex-1 min-h-dvh">
       <svg
         className="animate-spin h-10 w-10 mr-3"
         width="24"
