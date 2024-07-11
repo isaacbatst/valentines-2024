@@ -92,7 +92,7 @@ export const enigmas: Enigma[] = [
       new RequisitoEnigma(4),
     ],
     descoberta: [
-      "Nosso destino é inevitável\nAposto que você já sabe o que faremos por lá.",
+      "Nosso destino é inevitável! Aposto que você já sabe o que faremos por lá.",
     ],
   },
   {
